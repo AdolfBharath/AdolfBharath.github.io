@@ -16,7 +16,7 @@
 
 ### 🧰 Tech Stack  
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,python,html,css,js,react,nodejs,mysql,git,github,linux,vscode" />
+  <img src="https://skillicons.dev/icons?i=java,python,html,css,js,mysql,git,github,linux,vscode" />
 </p>
 
 ---
@@ -51,9 +51,9 @@
 
 ### 🔗 Connect with Me  
 <p align="center">
-  <a href="https://www.linkedin.com/in/your-linkedin/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:yourmail@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://github.com/bharathm"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="www.linkedin.com/in/bharathmurugan0663781" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:bharath0663781@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/AdolfBharath"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 
 ---
