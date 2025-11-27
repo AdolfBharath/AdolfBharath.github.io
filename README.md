@@ -40,12 +40,14 @@
 
 ---
 
-### 🎯 Fun Section  
+### 🎉 Just for Fun  
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=bharathm&theme=onestar&no-frame=true&row=1&column=6" />
+  <img src="https://media.giphy.com/media/l0Exk8EUzSLsrErEQ/giphy.gif" width="200" />
+  <br>
+  🚀 “Coding like a wizard, debugging like a detective!”  
+  <br>
+  🎮 Loves memes, coffee, and random tech experiments
 </p>
-
-> 💬 “Every byte of code is a step closer to mastering the digital world.”
 
 ---
 
