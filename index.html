@@ -1,82 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bharath M | Ethical Hacker</title>
-<link rel="stylesheet" href="css/style.css">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-<!-- Animate on Scroll library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADOLF BHARATH | //System_Root</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css"> 
 </head>
 <body>
-<!-- Matrix Background Canvas -->
-<canvas id="matrix"></canvas>
 
-<header>
-  <div class="container">
-    <h1 class="typing-title"></h1>
-    <p>Ethical Hacker & Cybersecurity Analyst</p>
-  </div>
-</header>
+    <div id="scanline-overlay"></div> 
+    
+    <header class="terminal-container">
+        <h1 id="header-text"></h1>
+        
+        <nav class="command-menu">
+            <a href="#about" class="command-link">[ user@bharath:~$ cat about.txt ]</a>
+            <a href="#skills" class="command-link">[ user@bharath:~$ ls /skills ]</a>
+            <a href="#projects" class="command-link">[ user@bharath:~$ cd /projects ]</a>
+            <a href="#contact" class="command-link">[ user@bharath:~$ ping contact.me ]</a>
+        </nav>
+    </header>
 
-<!-- About Section -->
-<section id="about" data-aos="fade-up">
-  <div class="container">
-    <h2>About Me</h2>
-    <div class="about-content">
-      <img src="img/profile.jpg" alt="Bharath M">
-      <p>Hello! I'm Bharath, a cybersecurity enthusiast skilled in programming, penetration testing, and malware analysis. I love exploring vulnerabilities and improving security measures.</p>
-    </div>
-  </div>
-</section>
+    <main class="content-area">
 
-<!-- Skills Section -->
-<section id="skills" data-aos="fade-up">
-  <div class="container">
-    <h2>Skills & Tools</h2>
-    <div class="skills-grid">
-      <div class="skill">Python</div>
-      <div class="skill">Java</div>
-      <div class="skill">Linux & Bash</div>
-      <div class="skill">Penetration Testing</div>
-      <div class="skill">Wireshark & Nmap</div>
-      <div class="skill">Web Security</div>
-      <div class="skill">Metasploit</div>
-      <div class="skill">Ethical Hacking</div>
-    </div>
-  </div>
-</section>
+        <section id="about" class="terminal-block">
+            <h2 class="terminal-prompt">bharath@system:~$ cat about.txt</h2>
+            <p class="terminal-output">
+                // Accessing Identity Profile... <span class="file-name">Success!</span>
+                <br>
+                **Name:** Bharath M.
+                <br>
+                **Status:** Engineering Student | Cybersecurity Enthusiast | Programmer
+                <br>
+                **Log:** Passionate about algorithms, ethical hacking, and web development. Currently learning DAA, network defense, and malware analysis. Building digital solutions with a security-first mindset.
+            </p>
+        </section>
 
-<!-- Projects Section -->
-<section id="projects" data-aos="fade-up">
-  <div class="container">
-    <h2>Projects</h2>
-    <div class="projects-grid" id="projects-grid"></div>
-  </div>
-</section>
+        <section id="skills" class="terminal-block">
+            <h2 class="terminal-prompt">bharath@system:~$ ls /skills</h2>
+            <ul class="terminal-list terminal-output">
+                <li><span class="file-name">Programming</span>: Java, Python, JavaScript, SQL</li>
+                <li><span class="file-name">Web</span>: HTML, CSS, Git, GitHub</li>
+                <li><span class="file-name">OS/Tools</span>: Linux, VScode, Networking Tools</li>
+                <li><span class="file-name">Security</span>: Ethical Hacking Concepts, Malware Analysis (Learning)</li>
+            </ul>
+        </section>
 
-<!-- Contact Section -->
-<section id="contact" data-aos="fade-up">
-  <div class="container">
-    <h2>Contact Me</h2>
-    <form id="contact-form">
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-  </div>
-</section>
+        <section id="projects" class="terminal-block">
+            <h2 class="terminal-prompt">bharath@system:~$ cd /projects && ls -l</h2>
+            <div class="project-list">
+                <div class="project-item terminal-output">
+                    <span class="project-name">Project-Vigilante.exe</span> 
+                    <span class="project-desc">// High-Level Security Tool Development</span>
+                </div>
+                 <div class="project-item terminal-output">
+                    <span class="project-name">Portfolio-2.0.sh</span> 
+                    <span class="project-desc">// Self-hosted Digital Showcase</span>
+                </div>
+            </div>
+            <p class="terminal-output">
+                <a href="https://github.com/AdolfBharath?tab=repositories" class="command-link">[ View all repositories ]</a>
+            </p>
+        </section>
 
-<footer>
-  <p>© 2025 Bharath M | Ethical Hacker</p>
-</footer>
+        <section id="contact" class="terminal-block">
+            <h2 class="terminal-prompt">bharath@system:~$ ping contact.me</h2>
+            <p class="terminal-output">
+                // Pinging contact.me (Success)
+                <br>
+                **LinkedIn:** <a href="[your-linkedin-url]" target="_blank" class="command-link">[ Connect ]</a>
+                <br>
+                **Email:** <a href="mailto:bharath0663781@gmail.com" class="command-link">[ Send Message ]</a>
+                <br>
+                **GitHub:** <a href="https://github.com/AdolfBharath" target="_blank" class="command-link">[ Follow ]</a>
+            </p>
+        </section>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-<script src="js/main.js"></script>
-<script>
-  AOS.init({ duration: 1200 });
-</script>
+    </main>
+
+    <footer class="terminal-container">
+        <p class="terminal-prompt-footer">bharath@system:~$ <span class="blinking-cursor">|</span></p>
+    </footer>
+
+    <script src="main.js"></script> 
 </body>
 </html>
