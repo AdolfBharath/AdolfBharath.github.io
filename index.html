@@ -1,74 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bharath M | Ethical Hacker</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bharath M | Ethical Hacker</title>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<!-- Animate on Scroll library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <div class="container">
-            <h1>Bharath M</h1>
-            <p>Ethical Hacker & Cyber Security Analyst</p>
-        </div>
-    </header>
+<!-- Matrix Background Canvas -->
+<canvas id="matrix"></canvas>
 
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <div class="about-content">
-                <img src="img/profile.png" alt="Bharath M">
-                <p>Hello! I am Bharath, a passionate ethical hacker and cybersecurity analyst. I specialize in penetration testing, vulnerability assessment, and security research. I love finding vulnerabilities and making systems more secure.</p>
-            </div>
-        </div>
-    </section>
+<header>
+  <div class="container">
+    <h1 class="typing-title"></h1>
+    <p>Ethical Hacker & Cybersecurity Analyst</p>
+  </div>
+</header>
 
-    <!-- Skills Section -->
-    <section id="skills">
-        <div class="container">
-            <h2>Skills</h2>
-            <div class="skills-grid">
-                <div class="skill">Penetration Testing</div>
-                <div class="skill">Network Security</div>
-                <div class="skill">Python & Scripting</div>
-                <div class="skill">Web Security</div>
-                <div class="skill">Malware Analysis</div>
-                <div class="skill">Ethical Hacking</div>
-            </div>
-        </div>
-    </section>
+<!-- About Section -->
+<section id="about" data-aos="fade-up">
+  <div class="container">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src="img/profile.jpg" alt="Bharath M">
+      <p>Hello! I'm Bharath, a cybersecurity enthusiast skilled in programming, penetration testing, and malware analysis. I love exploring vulnerabilities and improving security measures.</p>
+    </div>
+  </div>
+</section>
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="projects-grid" id="projects-grid">
-                <!-- Projects will be dynamically loaded -->
-            </div>
-        </div>
-    </section>
+<!-- Skills Section -->
+<section id="skills" data-aos="fade-up">
+  <div class="container">
+    <h2>Skills & Tools</h2>
+    <div class="skills-grid">
+      <div class="skill">Python</div>
+      <div class="skill">Java</div>
+      <div class="skill">Linux & Bash</div>
+      <div class="skill">Penetration Testing</div>
+      <div class="skill">Wireshark & Nmap</div>
+      <div class="skill">Web Security</div>
+      <div class="skill">Metasploit</div>
+      <div class="skill">Ethical Hacking</div>
+    </div>
+  </div>
+</section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <form id="contact-form">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
-    </section>
+<!-- Projects Section -->
+<section id="projects" data-aos="fade-up">
+  <div class="container">
+    <h2>Projects</h2>
+    <div class="projects-grid" id="projects-grid"></div>
+  </div>
+</section>
 
-    <footer>
-        <p>© 2025 Bharath M | Ethical Hacker</p>
-    </footer>
+<!-- Contact Section -->
+<section id="contact" data-aos="fade-up">
+  <div class="container">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
 
-    <script src="main.js"></script>
+<footer>
+  <p>© 2025 Bharath M | Ethical Hacker</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="js/main.js"></script>
+<script>
+  AOS.init({ duration: 1200 });
+</script>
 </body>
 </html>
