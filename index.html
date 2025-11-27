@@ -3,347 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bharath M | Portfolio - Cybersecurity & Software Development</title>
-    <meta name="description" content="Portfolio of Bharath M - Engineering Student & Cybersecurity Enthusiast showcasing vulnerability scanning, deepfake detection, and e-learning projects">
-    <meta name="keywords" content="portfolio, cybersecurity, engineering student, vulnerability scanner, deepfake detection, e-learning, software development">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css?v=2">
+    <title>Bharath M | Ethical Hacker</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav id="navbar">
-        <div class="container nav-container">
-            <div class="logo">BM</div>
-            <ul class="nav-links">
-                <li><a href="#home" class="active">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section id="home" class="hero">
+    <!-- Header Section -->
+    <header>
         <div class="container">
-            <div class="hero-content">
-                <div class="hero-text reveal slide-left">
-                    <h1>Hi, I'm <span class="highlight">Bharath M</span></h1>
-                    <h2>Engineering Student & Cybersecurity Enthusiast</h2>
-                    <p>Passionate about securing the digital world through innovative solutions and continuous learning. I specialize in identifying vulnerabilities, building secure systems, and developing cutting-edge applications.</p>
-                    <div class="cta-buttons">
-                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
-                        <a href="#projects" class="btn btn-secondary">View My Work</a>
-                    </div>
-                </div>
-                <div class="hero-image inline reveal slide-right">
-                    <img src="img/profile.png" alt="Bharath M" class="profile-img" onerror="if(!this.dataset.f){this.dataset.f='1';this.src=this.src.replace('.png','.jpg');}else if(this.dataset.f==='1'){this.dataset.f='2';this.src=this.src.replace('.jpg','.webp');}else{this.onerror=null;this.src='https://via.placeholder.com/400x400?text=Profile';}">
-                </div>
-            </div>
+            <h1>Bharath M</h1>
+            <p>Ethical Hacker & Cyber Security Analyst</p>
         </div>
-    </section>
+    </header>
 
     <!-- About Section -->
-    <section id="about" class="section">
+    <section id="about">
         <div class="container">
-            <h2 class="section-title">About <span class="highlight">Me</span></h2>
+            <h2>About Me</h2>
             <div class="about-content">
-                <div class="about-text">
-                    <p>I'm an engineering student with a strong passion for cybersecurity and software development. My journey in technology started with a curiosity about how things work, which eventually led me to explore the world of cybersecurity.</p>
-                    <p>With hands-on experience in various programming languages and security tools, I'm constantly learning and expanding my skill set to stay ahead in this ever-evolving field. I've developed several projects including vulnerability scanners, deepfake detection systems, and e-learning applications.</p>
-                    <p>When I'm not coding or securing systems, you can find me participating in CTF challenges, contributing to open-source projects, or exploring new technologies.</p>
-                </div>
-                <div class="about-stats">
-                    <div class="stat-item">
-                        <span class="stat-number">3+</span>
-                        <span class="stat-label">Major Projects</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number">85%</span>
-                        <span class="stat-label">Deepfake Detection Accuracy</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number">Multi-Platform</span>
-                        <span class="stat-label">Development Experience</span>
-                    </div>
-                </div>
+                <img src="assets/profile.jpg" alt="Bharath M">
+                <p>Hello! I am Bharath, a passionate ethical hacker and cybersecurity analyst. I specialize in penetration testing, vulnerability assessment, and security research. I love finding vulnerabilities and making systems more secure.</p>
             </div>
         </div>
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="section bg-light">
+    <section id="skills">
         <div class="container">
-            <h2 class="section-title reveal">My <span class="highlight">Skills</span></h2>
+            <h2>Skills</h2>
             <div class="skills-grid">
-                <div class="skill-category reveal">
-                    <h3><i class="fas fa-code"></i> Programming</h3>
-                    <ul>
-                        <li>Java (Intermediate)</li>
-                        <li>Python (Advanced)</li>
-                        <li>C++ (Intermediate)</li>
-                        <li>JavaScript (Intermediate)</li>
-                        <li>Flutter (Mobile Development)</li>
-                        <li>JavaFX (Desktop Development)</li>
-                    </ul>
-                </div>
-                <div class="skill-category reveal">
-                    <h3><i class="fas fa-shield-alt"></i> Cybersecurity</h3>
-                    <ul>
-                        <li>OWASP ZAP</li>
-                        <li>Dependency-Check</li>
-                        <li>Vulnerability Assessment</li>
-                        <li>Penetration Testing</li>
-                        <li>Security Testing</li>
-                        <li>Malware Analysis</li>
-                    </ul>
-                </div>
-                <div class="skill-category reveal">
-                    <h3><i class="fas fa-brain"></i> AI/ML & Tools</h3>
-                    <ul>
-                        <li>TensorFlow</li>
-                        <li>OpenCV</li>
-                        <li>CNN (Convolutional Neural Networks)</li>
-                        <li>Linux</li>
-                        <li>WireShark</li>
-                        <li>Jenkins</li>
-                    </ul>
-                </div>
+                <div class="skill">Penetration Testing</div>
+                <div class="skill">Network Security</div>
+                <div class="skill">Python & Scripting</div>
+                <div class="skill">Web Security</div>
+                <div class="skill">Malware Analysis</div>
+                <div class="skill">Ethical Hacking</div>
             </div>
         </div>
     </section>
 
-    <!-- My Projects Section -->
-    <section id="projects" class="section bg-light">
+    <!-- Projects Section -->
+    <section id="projects">
         <div class="container">
-            <h2 class="section-title reveal">My <span class="highlight">Projects</span></h2>
-            <div class="projects-grid">
-                <div class="project-card reveal">
-                    <div class="project-image">
-                        <img src="img/vulnerability-scanner.jpg" alt="Automated Vulnerability Web Scanner" loading="lazy" onerror="if(!this.dataset.f){this.dataset.f='1';this.src=this.src.replace('.jpg','.png');}else if(this.dataset.f==='1'){this.dataset.f='2';this.src=this.src.replace('.png','.webp');}else{this.onerror=null;this.src='https://via.placeholder.com/800x400?text=Vulnerability+Scanner';}">
-                    </div>
-                    <div class="project-content">
-                        <h3>Automated Vulnerability Web Scanner</h3>
-                        <p>Built a web application vulnerability scanner leveraging OWASP ZAP and Dependency-Check to detect security issues such as SQL injection, XSS, and insecure components. Performed both automated and manual security testing, validating vulnerabilities in controlled test environments to strengthen application security.</p>
-                        <div class="tech-stack">
-                            <span>OWASP ZAP</span>
-                            <span>Dependency-Check</span>
-                            <span>Python</span>
-                            <span>Security Testing</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="btn btn-small"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                            <a href="#" class="btn btn-small btn-secondary"><i class="fab fa-github"></i> Source Code</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card reveal">
-                    <div class="project-image">
-                        <img src="img/deepfake-detection.jpg" alt="Deepfake Technology Detection" loading="lazy" onerror="if(!this.dataset.f){this.dataset.f='1';this.src=this.src.replace('.jpg','.png');}else if(this.dataset.f==='1'){this.dataset.f='2';this.src=this.src.replace('.png','.webp');}else{this.onerror=null;this.src='https://via.placeholder.com/800x400?text=Deepfake+Detection';}">
-                    </div>
-                    <div class="project-content">
-                        <h3>Deepfake Technology Detection</h3>
-                        <p>Developed a CNN-based Python tool using TensorFlow and OpenCV to detect deepfake images with 85% accuracy on the FaceForensics++ dataset. Implemented preprocessing and detection pipeline, and integrated a simple GUI for user-friendly input and testing.</p>
-                        <div class="tech-stack">
-                            <span>TensorFlow</span>
-                            <span>OpenCV</span>
-                            <span>CNN</span>
-                            <span>Python</span>
-                            <span>GUI</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="btn btn-small"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                            <a href="#" class="btn btn-small btn-secondary"><i class="fab fa-github"></i> Source Code</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card reveal">
-                    <div class="project-image">
-                        <img src="img/e-learning.jpg" alt="Offline E-Learning Application" loading="lazy" onerror="if(!this.dataset.f){this.dataset.f='1';this.src=this.src.replace('.jpg','.png');}else if(this.dataset.f==='1'){this.dataset.f='2';this.src=this.src.replace('.png','.webp');}else{this.onerror=null;this.src='https://via.placeholder.com/800x400?text=E-Learning+App';}">
-                    </div>
-                    <div class="project-content">
-                        <h3>Offline E-Learning Application</h3>
-                        <p>Developed a cross-platform e-learning application with a responsive UI built using Flutter (mobile) and JavaFX (desktop) to ensure accessibility across devices. Designed an intuitive UI/UX focused on usability for learners with minimal technical knowledge. Implemented backend logic in Java/Python to manage user authentication, content delivery, quiz evaluation, and data storage. Enabled offline access by caching learning materials locally, with synchronization when connectivity is available.</p>
-                        <div class="tech-stack">
-                            <span>Flutter</span>
-                            <span>JavaFX</span>
-                            <span>Java</span>
-                            <span>Python</span>
-                            <span>Offline Sync</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="btn btn-small"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                            <a href="#" class="btn btn-small btn-secondary"><i class="fab fa-github"></i> Source Code</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience" class="section">
-        <div class="container">
-            <h2 class="section-title">My <span class="highlight">Experience</span></h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <span class="date">Jan 2025 – May 2025</span>
-                        <h3>Academic Project — Farmer Connect System</h3>
-                        <h4>Mobile App + Web Admin</h4>
-                        <ul>
-                            <li>Developed a mobile application connecting farmers within a region with real-time Tamil messages on market prices and bulk orders.</li>
-                            <li>Built a web-based admin dashboard to manage farmer data and automated alerts.</li>
-                            <li>Aimed to stabilize market rates by balancing stock and demand across regions.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <span class="date">Ongoing</span>
-                        <h3>🔐 Cybersecurity Learning & Practice (Self-Initiated)</h3>
-                        <h4>Hands-on Security Training</h4>
-                        <ul>
-                            <li>Practicing ethical hacking on TryHackMe and HackTheBox platforms.</li>
-                            <li>Using Wireshark, Burp Suite, Nmap, and Metasploit for scanning, sniffing, and vulnerability testing.</li>
-                            <li>Studying malware analysis techniques — static, dynamic, and sandbox-based.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <span class="date">Jun 2025 – Present</span>
-                        <h3>☁️ DevOps & Cloud Tools Exploration</h3>
-                        <h4>CI/CD & Cloud Deployments</h4>
-                        <ul>
-                            <li>Learning Git, GitHub, Maven, Gradle, and AWS as part of CI/CD and DevOps concepts.</li>
-                            <li>Built sample pipelines integrating GitHub Actions for automation.</li>
-                            <li>Deployed simple web apps on AWS to understand cloud workflows.</li>
-                        </ul>
-                    </div>
-                </div>
+            <h2>Projects</h2>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Projects will be dynamically loaded -->
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="section">
+    <section id="contact">
         <div class="container">
-            <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
-            <div class="contact-container">
-                <div class="contact-info">
-                    <h3>Let's Connect</h3>
-                    <p>Feel free to reach out for collaborations, opportunities, or just a friendly hello!</p>
-                    
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h4>Email</h4>
-                            <p>bharath0663781@gmail.com</p>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <i class="fab fa-linkedin"></i>
-                        <div>
-                            <h4>LinkedIn</h4>
-                            <p>https://www.linkedin.com/in/bharath-murugan</p>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <i class="fab fa-github"></i>
-                        <div>
-                            <h4>GitHub</h4>
-                            <p>https://github.com/AdolfBharath</p>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <h4>Phone</h4>
-                            <p>+91 8667234249</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <form class="contact-form">
-                    <div class="form-group">
-                        <input type="text" name="name" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" name="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" name="subject" placeholder="Subject" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                </form>
-            </div>
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-about">
-                    <h3>Bharath M</h3>
-                    <p>Engineering Student & Cybersecurity Enthusiast passionate about securing the digital world through innovative solutions.</p>
-                </div>
-                <div class="footer-links">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#experience">Experience</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-newsletter">
-                    <h4>Newsletter</h4>
-                    <p>Subscribe to my newsletter for the latest updates and articles.</p>
-                    <form class="newsletter-form">
-                        <input type="email" placeholder="Your Email" required>
-                        <button type="submit" class="btn btn-small">Subscribe</button>
-                    </form>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; <span id="year"></span> Bharath M. All rights reserved.</p>
-                <div class="social-links">
-                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                    <a href="#" aria-label="Security"><i class="fas fa-shield-alt"></i></a>
-                </div>
-            </div>
-        </div>
+        <p>© 2025 Bharath M | Ethical Hacker</p>
     </footer>
 
-    <!-- Back to Top Button -->
-    <a href="#home" class="back-to-top" aria-label="Back to top">
-        <i class="fas fa-arrow-up"></i>
-    </a>
-
-    <script src="js/main.js?v=2"></script>
+    <script src="script.js"></script>
 </body>
 </html>
