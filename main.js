@@ -2,17 +2,17 @@
 const projects = [
     {
         title: "Deepfake Detection Tool",
-        image: "assets/project1.jpg",
+        image: "img/deepfake-detection.jpg",
         description: "Developed a CNN-based Python tool using TensorFlow and OpenCV to detect deepfake images with 85% accuracy."
     },
     {
         title: "Network Vulnerability Scanner",
-        image: "assets/project1.jpg",
+        image: "img/vulnerability-scanner.jpg",
         description: "A Python-based tool to scan networks for vulnerabilities and generate detailed reports."
     },
     {
         title: "Ethical Hacking Lab",
-        image: "assets/project1.jpg",
+        image: "img/e-learning.jpg",
         description: "Created a lab environment for testing penetration techniques safely."
     }
 ];
