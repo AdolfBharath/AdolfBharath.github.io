@@ -1,151 +1,31 @@
-/* General Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Neon glow for hover effects */
+.skill:hover, .project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #00ffab, 0 0 30px #00ffab;
+    transition: all 0.3s ease;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #0f0f0f;
-    color: #e0e0e0;
-    line-height: 1.6;
+/* Project card shadow animation */
+.project-card img {
+    transition: transform 0.5s ease;
 }
-
-/* Header */
-header {
-    background: #1b1b1b;
-    padding: 50px 0;
-    text-align: center;
-    border-bottom: 2px solid #00ffab;
-}
-
-header h1 {
-    font-size: 3rem;
-    color: #00ffab;
-}
-
-header p {
-    font-size: 1.2rem;
-    color: #ccc;
-}
-
-/* Sections */
-section {
-    padding: 60px 20px;
-}
-
-section h2 {
-    text-align: center;
-    margin-bottom: 40px;
-    color: #00ffab;
-}
-
-/* About Section */
-.about-content {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.about-content img {
-    width: 200px;
-    border-radius: 50%;
-    border: 3px solid #00ffab;
-}
-
-.about-content p {
-    max-width: 600px;
-}
-
-/* Skills */
-.skills-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.skill {
-    background: #222;
-    padding: 20px 30px;
-    border-radius: 10px;
-    border: 1px solid #00ffab;
-    transition: transform 0.3s;
-}
-
-.skill:hover {
+.project-card img:hover {
     transform: scale(1.1);
 }
 
-/* Projects */
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-}
-
-.project-card {
-    background: #222;
-    border: 1px solid #00ffab;
-    padding: 20px;
-    border-radius: 10px;
-    transition: transform 0.3s;
-}
-
-.project-card:hover {
-    transform: scale(1.05);
-}
-
-.project-card img {
-    width: 100%;
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
-
-.project-card h3 {
-    margin-bottom: 10px;
-}
-
-/* Contact */
-#contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-#contact-form input, 
-#contact-form textarea {
-    padding: 15px;
-    border: 1px solid #00ffab;
-    border-radius: 5px;
-    background: #111;
-    color: #e0e0e0;
-}
-
-#contact-form button {
-    padding: 15px;
-    border: none;
-    border-radius: 5px;
-    background: #00ffab;
-    color: #000;
+/* Header typing animation style */
+.typing-title {
+    color: #00ffab;
+    font-size: 2rem;
     font-weight: bold;
-    cursor: pointer;
-    transition: background 0.3s;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
-#contact-form button:hover {
-    background: #00c48f;
-}
-
-/* Footer */
-footer {
-    text-align: center;
-    padding: 20px;
-    border-top: 2px solid #00ffab;
-    background: #1b1b1b;
+/* Matrix canvas */
+#matrix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
